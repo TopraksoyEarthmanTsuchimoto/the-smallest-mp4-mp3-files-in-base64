@@ -10,4 +10,4 @@ __sleep-control.js__ solves this problem by playing a tiny little invisible vide
 ###### Note: You must use a mobile device
 
 
-##### [Download sleep-control.js](https://raw.githubusercontent.com/TopraksoyEarthmanTsuchimoto/sleep-control.js/main/sleep-control.js "download")
+##### [Download sleep-control.js | Right-click Save as…](https://raw.githubusercontent.com/TopraksoyEarthmanTsuchimoto/sleep-control.js/main/sleep-control.js "Right-click Save As…")
