@@ -6,5 +6,5 @@ But they don't respect you the same way when you watch an image slide show and t
 
 __sleep-control.js__ solves this problem by playing a tiny little invisible video to extend the sleep timeout and lets your users watch the contents of your app without the UX being cut in the middle.
 
-## [Try it here](https://topraksoyearthmantsuchimoto.github.io/sleep-control.js/)
-You must use a mobile device
+### [Try it here](https://topraksoyearthmantsuchimoto.github.io/sleep-control.js/)
+Note: You must use a mobile device
