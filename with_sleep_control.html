@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <title>Test sleep-control.js</title>
+    <script defer src="sleep-control.js">/*Extend screen sleep timeout*/</script>
+
+  </head>
+  <body style="width:95vw;height:95vh;">
+
+    <h1>With sleep-control.js</h1>
+    <h2>Touch anywhere on screen to reset the timeout</h2>
+    <h4>sleep-control.js keeps the screen on for 99 seconds plus the default waiting time of your device</h4>
+    <h4>You can change the value of <code>stayAwakeAtLeastThisLong</code> variable in the js file to adjust the time</h4>
+    <h3></h3>
+    <script>
+      var elapsed = 0;
+      setInterval(function () {
+        document.getElementsByTagName('h3')[0].innerHTML = "it has been " + elapsed + " seconds";
+        elapsed++;
+      }, 1000);
+    </script>
+
+    <h6>An iframe</h6>
+    <iframe src="testframe.html" width="222" height="222"></iframe>
+    <script>
+      document.body.addEventListener("touchstart",resetElapsed);
+      const theFrame = document.getElementsByTagName('iframe')[0];
+      const theFrameWindow = theFrame.contentWindow || theFrame.contentDocument;
+      theFrameWindow.document.body.addEventListener("touchstart",resetElapsed);
+      theFrame.addEventListener("load",function () {
+        theFrameWindow.document.body.addEventListener("touchstart",resetElapsed); // Restart the event listener because it dies when frame src is changed
+      });
+      function resetElapsed() { elapsed = 0; }
+    </script>
+    <br>&nbsp;
+    <br>&nbsp;
+    <a href="index.html" target="_self">Go back</a>
+    <!-- <script> setTimeout(function () { document.getElementsByTagName('iframe')[0].src="testframe.html"; }, 2000); </script> -->
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <title>Test sleep timeout</title>
+
+
+  </head>
+  <body style="width:95vw;height:95vh;">
+
+    <h1>Without sleep-control.js</h1>
+    <h2>Watch the timer and note the last second before your device screen is dimmed and turned off</h2>
+    <h3></h3>
+    <script>
+      let elapsed = 0;
+      setInterval(function () {
+        document.getElementsByTagName('h3')[0].innerHTML = "it has been " + elapsed + " seconds";
+        elapsed++;
+      }, 1000);
+    </script>
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <br>&nbsp;
+    <a href="with_sleep_control.html" target="_self">And then touch here to try sleep-control.js</a>
+
+  </body>
+</html>
