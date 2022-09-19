@@ -13,5 +13,5 @@ __sleep-control.js__ solves this problem by playing a tiny little invisible vide
 ##### [Download sleep-control.js | Right-click here and Save as…](https://raw.githubusercontent.com/TopraksoyEarthmanTsuchimoto/sleep-control.js/main/sleep-control.js "Right-click Save As…")
 ***
 
-###### Note: You must find the `stayAwakeAtLeastThisLong` variable in the js file to adjust the *stay-awake* time.  
+Note: You must find the `stayAwakeAtLeastThisLong` variable in the js file to adjust the *stay-awake* time.  
 The default is 99 seconds.
