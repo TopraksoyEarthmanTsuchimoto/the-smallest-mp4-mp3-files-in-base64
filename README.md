@@ -7,11 +7,11 @@ But they don't respect you the same way when you watch an image slideshow and th
 
 __sleep-control.js__ solves this problem by playing a tiny little invisible video to extend the sleep timeout and lets your users watch the contents of your app without the UX being cut in the middle.
 
-### [Try it here](https://topraksoyearthmantsuchimoto.github.io/sleep-control.js/)  ###### Note: You must use a mobile device
+### [You can try it here](https://topraksoyearthmantsuchimoto.github.io/sleep-control.js/)  if you are using a mobile device
 ---
 
 ##### [Download sleep-control.js | Right-click here and Save as…](https://raw.githubusercontent.com/TopraksoyEarthmanTsuchimoto/sleep-control.js/main/sleep-control.js "Right-click Save As…")
+***
 
-
-###### Note: You must find the `stayAwakeAtLeastThisLong` variable in the js file to adjust the *stay-awake* time.
-###### The default is 99 seconds.
+###### Note: You must find the `stayAwakeAtLeastThisLong` variable in the js file to adjust the *stay-awake* time.  
+The default is 99 seconds.
