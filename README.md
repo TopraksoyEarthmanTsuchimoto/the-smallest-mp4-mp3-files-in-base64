@@ -14,4 +14,6 @@ __sleep-control.js__ solves this problem by playing a tiny little invisible vide
 ***
 
 Note: You must find the `stayAwakeAtLeastThisLong` variable in the js file to adjust the *stay-awake* time.  
-The default is 99 seconds.
+The default is 99 seconds.    
+
+###### sleep-control.js was created during the development of [speakworldlanguages.app](https://speakworldlanguages.github.io)
