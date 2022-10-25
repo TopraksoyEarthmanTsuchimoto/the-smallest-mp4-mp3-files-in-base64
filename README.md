@@ -1,4 +1,4 @@
-## The smallest mp4 and mp3 files encoded into base64  
+## The smallest mp4 and mp3 files in the world encoded into base64  
 
 #### All you have to do is set the src of a video/audio element and it works inline i.e. you don't need the actual file itself.
 
